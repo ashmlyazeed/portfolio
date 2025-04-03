@@ -1,51 +1,24 @@
-/* Reset some default styling */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+A<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAZEED | Tech Enthusiast Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-/* Body styling */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-}
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>YAZEED</h1>
+            <p>Tech Enthusiast | Student at SCMS</p>
+            <a href="#projects" class="cta-btn">View My Projects</a>
+        </div>
+    </header>
 
-/* Header section */
-header {
-    background: #333;
-    color: white;
-    padding: 10px 0;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
-header nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-header nav ul li {
-    display: inline;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 5px 10px;
-}
-
-header nav ul li a:hover {
-    background-color: #555;
-    border-radius: 4px;
-}
-
-/* Home section (hero) */
-.hero {
-    background: #2d3e50;
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a passionate tech enthusiast currently studying
